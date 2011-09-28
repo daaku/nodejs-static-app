@@ -1,0 +1,24 @@
+{
+  "name": "static-app",
+  "description": "Build easy to deploy static browser apps.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nshah/nodejs-static-app",
+  "author": "Naitik Shah <n@daaku.org>",
+  "main": "lib/static-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nshah/nodejs-static-app"
+  },
+  "bin": { "static-app": "./bin/static-app" },
+  "dependencies": {
+    "async": ">= 0.1.10",
+    "browserify": ">= 1.5.0",
+    "clean-css": ">= 0.2.4",
+    "connect": ">= 1.7.1",
+    "jade": ">= 0.16.0",
+    "optimist": ">= 0.2.6",
+    "uglify-js": ">= 1.1.0",
+    "underscore": ">= 1.1.7"
+  },
+  "engines": { "node": ">= 0.4.1" }
+}
