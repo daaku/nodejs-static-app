@@ -1,3 +1,7 @@
 #!/usr/bin/env node
 
-require('static-app').main()
+try {
+  require('../lib/static-app').main()
+} catch(e) {
+  require('static-app').main()
+}
