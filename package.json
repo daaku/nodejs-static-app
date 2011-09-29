@@ -1,7 +1,7 @@
 {
   "name": "static-app",
   "description": "Build easy to deploy static browser apps.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/nshah/nodejs-static-app",
   "author": "Naitik Shah <n@daaku.org>",
   "main": "lib/static-app",
@@ -18,6 +18,7 @@
     "cluster": ">= 0.7.5",
     "connect": ">= 1.7.1",
     "jade": ">= 0.16.0",
+    "nib": ">= 0.2.0",
     "optimist": ">= 0.2.6",
     "stylus": ">= 0.16.0",
     "uglify-js": ">= 1.1.0",
